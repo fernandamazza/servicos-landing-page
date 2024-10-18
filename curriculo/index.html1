@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+
+<style type="text/css">
+    #galeria > div{
+       float:left;
+       width: 50%;
+       padding: 20px;
+       box-sizing: border-box;    
+    }
+.foto img {
+    width: 100%;
+    display: block;
+}
+.detalhes
+    {display: none;}
+
+#galeria .foto:target{
+    position: fixed;
+    width: 50%;
+    top: 15px;
+    left: 25%;
+    padding: 5px;
+    border: solid 1px #333;
+    box-shadow: 0 0 25px 10px black;
+background: white;
+border-radius: 5px;
+}
+.foto:target .detalhes{
+    display: block;
+}
+
+</style>
+   
+</head>
+<body>
+<div id="galeria">
+  
+<div class="foto" id="foto1">
+      <a href="#foto1">
+        <img src="./Capturar.PNG" alt="foto">
+      </a>
+    <div class="detalhes">
+Descrição da Imagem<br><a href="">Fechar</a></div>
+</div>
+<div id="galeria">
+  
+    <div class="foto" id="foto2">
+          <a href="#foto2">
+            <img src="./1.jpg" alt="foto">
+          </a>
+        <div class="detalhes">
+    Descrição da Imagem<br><a href="">Fechar</a></div>
+    </div>
+</div>
+<style>{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+width: 100vw;
+height: 100vh;
+background-image: url(./componentes/images/172094-ios-azure-xie_po-dian_lan_se_de-de_ping_xian-1920x1080.jpg);
+background-size: 108%;
+}
+</style>
+
+ 
